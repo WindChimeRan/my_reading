@@ -41,6 +41,8 @@
 
    notes: 09/11/2019
 
+   > This paper leverage cross-lingual features, both symbolic and distributional, for extracting universal common features from the text. The results show that these features are well-transferable and achieve comparable performance with the monolingual model.
+
 
 2. **Cross-lingual Multi-Level Adversarial Transfer to Enhance Low-Resource Name Tagging**
 
@@ -49,6 +51,7 @@
     [paper](http://nlp.cs.rpi.edu/paper/adversarial2019.pdf)
 
 3. **Multilingual Entity, Relation, Event and Human Value Extraction**
+   
     key: xlie | multi-task
 
     [paper](http://nlp.cs.rpi.edu/paper/naacldemo2019.pdf)
@@ -59,3 +62,9 @@
     key: xlie | ner | weak supervised
 
     [paper](http://nlp.cs.rpi.edu/paper/weaklysupervised2019.pdf)
+
+    > This paper propose a novel Partial CRF with O entity sampling trick. The conventional PCRF cannot learn O entity. By simple rule, reliable O samples can be found, thus enhancing the overall performance in weak supervised setting.
+
+    > simply drop the wrong labeled data is bad. 
+    
+    > "However, abandoning training data may exacerbate the issue of inadequate annotation. Therefore, maximizing the potential of massive noisy data as well as high quality part, yet being efficient, is challenging."
