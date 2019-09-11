@@ -33,4 +33,29 @@
 
 ## Heng Ji
 
-1. 
+1. **Cross-lingual Structure Transfer for Relation and Event Extraction**
+   
+   key: xlie | relation and event extraction | GCN
+
+   [paper](http://nlp.cs.rpi.edu/paper/crosslingualstructure2019.pdf)
+
+   notes: 09/11/2019
+
+
+2. **Cross-lingual Multi-Level Adversarial Transfer to Enhance Low-Resource Name Tagging**
+
+    key: xlie | ner | gan
+
+    [paper](http://nlp.cs.rpi.edu/paper/adversarial2019.pdf)
+
+3. **Multilingual Entity, Relation, Event and Human Value Extraction**
+    key: xlie | multi-task
+
+    [paper](http://nlp.cs.rpi.edu/paper/naacldemo2019.pdf)
+
+
+4. **Low-Resource Name Tagging Learned with Weakly Labeled Data**
+
+    key: xlie | ner | weak supervised
+
+    [paper](http://nlp.cs.rpi.edu/paper/weaklysupervised2019.pdf)
