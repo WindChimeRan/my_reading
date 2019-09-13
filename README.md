@@ -77,14 +77,12 @@
 
    [paper](https://arxiv.org/pdf/1909.05235.pdf)
 
-   1. This paper introduce multiple center for each class.
-   2. Triple numbers are linear in the examples (rather than O(n^3))
-   3. training without sampling
+   1. This paper introduce multiple centers for each class. 
+   2. Training without sampling. Triple numbers are linear in the examples (rather than O(n^3)). This is similar to that of ProtoNet.
 
 ## Multi-Label
 
-1. **Learning to Learn and Predict:
-A Meta-Learning Approach for Multi-Label Classification**
+1. **Learning to Learn and Predict: A Meta-Learning Approach for Multi-Label Classification**
 
     [paper](https://arxiv.org/pdf/1909.04176.pdf)
 
