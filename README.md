@@ -68,3 +68,24 @@
     > simply drop the wrong labeled data is bad. 
     
     > "However, abandoning training data may exacerbate the issue of inadequate annotation. Therefore, maximizing the potential of massive noisy data as well as high quality part, yet being efficient, is challenging."
+
+## Metric Learning
+
+1. **SoftTriple Loss: Deep Metric Learning Without Triplet Sampling**
+   
+   key: sampling | triplet loss | SoftTriple Loss
+
+   [paper](https://arxiv.org/pdf/1909.05235.pdf)
+
+   1. This paper introduce multiple center for each class.
+   2. Triple numbers are linear in the examples (rather than O(n^3))
+   3. training without sampling
+
+## Multi-Label
+
+1. **Learning to Learn and Predict:
+A Meta-Learning Approach for Multi-Label Classification**
+
+    [paper](https://arxiv.org/pdf/1909.04176.pdf)
+
+    
