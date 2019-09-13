@@ -63,6 +63,8 @@
 
     [paper](http://nlp.cs.rpi.edu/paper/weaklysupervised2019.pdf)
 
+    notes: 09/12/2019
+
     > This paper propose a novel Partial CRF with O entity sampling trick. The conventional PCRF cannot learn O entity. By simple rule, reliable O samples can be found, thus enhancing the overall performance in weak supervised setting.
 
     > simply drop the wrong labeled data is bad. 
@@ -77,6 +79,8 @@
 
    [paper](https://arxiv.org/pdf/1909.05235.pdf)
 
+   notes: 09/13/2019
+
    1. This paper introduce multiple centers for each class. 
    2. Training without sampling. Triple numbers are linear in the examples (rather than O(n^3)). This is similar to that of ProtoNet.
 
@@ -86,4 +90,30 @@
 
     [paper](https://arxiv.org/pdf/1909.04176.pdf)
 
-    
+## back-translation
+
+1. **Neural Machine Translation of Low-Resource and Similar Languages with Backtranslation**
+
+    [paper](https://www.aclweb.org/anthology/W19-5431)
+
+    key: NMT | back-translation | data augmentation
+
+    notes: 09/13/2019
+
+    > back-translation for data augmentation
+
+    > hyperparameter tuning in WMT task
+
+    > noisy synthesised data is better than beam-search or greedy search.
+
+2.  **Understanding Back-Translation at Scale**
+
+    key: NMT | back-translation | data augmentation
+
+    [paper](https://aclweb.org/anthology/D18-1045)
+
+    notes: 09/13/2019
+
+    > noisy synthesised data is better than beam-search or greedy search.
+
+
