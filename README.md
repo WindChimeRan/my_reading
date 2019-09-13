@@ -123,4 +123,17 @@
 
     > noisy synthesised data is better than beam-search or greedy search.
 
+## class-imbalanced classification
+
+1. **Imbalance Problems in Object Detection: A Review**
+
+    [zhihu](https://zhuanlan.zhihu.com/p/82371629)
+
+    key: class imbalance | object detection | review
+
+    > foreground & background classification ?
+
+    > a. [Imbalance Problems in Object Detection: A Review](https://arxiv.org/pdf/1909.00169.pdf)
+    b. [paper list](https://github.com/kemaloksuz/ObjectDetectionImbalance)
+
 
