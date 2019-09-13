@@ -90,6 +90,13 @@
 
     [paper](https://arxiv.org/pdf/1909.04176.pdf)
 
+    key: meta-learning | ? label dependency | multi-label classification
+
+    notes: 09/13/2019
+
+    > This paper propose a RNN-based meta-learner to learn the the threshold and instance weight for loss, that is, a variant of standard cross-entropy.
+
+
 ## back-translation
 
 1. **Neural Machine Translation of Low-Resource and Similar Languages with Backtranslation**
