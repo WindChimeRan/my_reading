@@ -129,6 +129,8 @@
 
     [zhihu](https://zhuanlan.zhihu.com/p/82371629)
 
+    notes: 09/13/2019
+
     key: class imbalance | object detection | review
 
     > foreground & background classification ?
@@ -137,3 +139,26 @@
     b. [paper list](https://github.com/kemaloksuz/ObjectDetectionImbalance)
 
 
+## Cross-Lingual
+1. **Entity Projection via Machine-Translation for Cross-Lingual NER** EMNLP2019
+   
+   [paper](https://arxiv.org/pdf/1909.05356.pdf)
+
+   notes: 09/15/2019
+
+   key: xlie | alignment | NER
+
+   > This paper use complicated rule for projecting entity tags by leveraging off-the-shelf MT system.
+
+## Machine Translation
+1. **Levenshtein Transformer**
+   
+    [paper](https://arxiv.org/pdf/1905.11006.pdf)
+
+    notes: 09/15/2019
+
+    key: machine translation | alignment | generation
+
+    > This paper use the action sequence of edit distance to supervise sentence editing. action space: insertion and deletion.
+
+    > problem: The insertion and deletion might never end because neural network is a blackbox.
