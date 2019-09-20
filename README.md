@@ -156,11 +156,24 @@
 
    key: xlie | alignment | NER
 
+   notes: 09/20/2019
+
    > This paper can be seen as a kind of multi-head selection. That is, the Cartesian Product of source x target (mutli-head is source x source)
 
    > It mention a very important trick! "alignments are context sensitive": the decision to align the current position will affect to its neighbors. So they add a 3x3 conv layer! This layer brings about 25 F1 score improvement. 
 
+3. **Neural Network Alignment for Sentential Paraphrases**
 
+    [paper](https://www.aclweb.org/anthology/P19-1467)
+
+
+4. **On The Alignment Problem In Multi-Head Attention-Based Neural Machine Translation**
+
+    [paper](https://www.aclweb.org/anthology/W18-6318)
+
+5. **A Little Annotation does a Lot of Good: A Study in Bootstrapping Low-resource Named Entity Recognizers**
+
+    [paper](https://arxiv.org/pdf/1908.08983.pdf)
 
 ## Machine Translation
 1. **Levenshtein Transformer**
