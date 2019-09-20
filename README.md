@@ -150,6 +150,18 @@
 
    > This paper use complicated rule for projecting entity tags by leveraging off-the-shelf MT system.
 
+2. **A Discriminative Neural Model for Cross-Lingual Word Alignment**
+   
+   [paper](https://arxiv.org/pdf/1909.00444.pdf)
+
+   key: xlie | alignment | NER
+
+   > This paper can be seen as a kind of multi-head selection. That is, the Cartesian Product of source x target (mutli-head is source x source)
+
+   > It mention a very important trick! "alignments are context sensitive": the decision to align the current position will affect to its neighbors. So they add a 3x3 conv layer! This layer brings about 25 F1 score improvement. 
+
+
+
 ## Machine Translation
 1. **Levenshtein Transformer**
    
@@ -162,3 +174,4 @@
     > This paper use the action sequence of edit distance to supervise sentence editing. action space: insertion and deletion.
 
     > problem: The insertion and deletion might never end because neural network is a blackbox.
+
