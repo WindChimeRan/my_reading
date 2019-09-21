@@ -97,6 +97,7 @@
     > This paper propose a RNN-based meta-learner to learn the the threshold and instance weight for loss, that is, a variant of standard cross-entropy.
 
 
+
 ## back-translation
 
 1. **Neural Machine Translation of Low-Resource and Similar Languages with Backtranslation**
@@ -170,6 +171,12 @@
 4. **On The Alignment Problem In Multi-Head Attention-Based Neural Machine Translation**
 
     [paper](https://www.aclweb.org/anthology/W18-6318)
+
+    key: NMT | alignment
+
+    notes: 09/20/2019
+
+    > gold annotation + hard constraint
 
 5. **A Little Annotation does a Lot of Good: A Study in Bootstrapping Low-resource Named Entity Recognizers**
 
