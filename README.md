@@ -182,6 +182,24 @@
 
     [paper](https://arxiv.org/pdf/1908.08983.pdf)
 
+    key: NER | alignment | active learning | low resource | writting
+
+    notes: 09/23/2019
+
+    > This paper uses dictionary to construct a coarse mapping source2target. Then it uses a linear mapping together with a nearest neighbor searching to improve the dictionary. Then map the BIO to target directly for pretraining.
+
+    > The core idea is active learning with partial crf. Annotators are too tired to annotate the full sequences accurately. Instead, by leveraving partial crf for only the informative tags, the NN can learn better.
+
+    > The "informative label", which used Entropy over corpus, is very interesting!
+
+6. **Neural Cross-Lingual Named Entity Recognition with Minimal Resources**
+
+    [paper](https://www.aclweb.org/anthology/D18-1034)
+
+    
+
+
+
 ## Machine Translation
 1. **Levenshtein Transformer**
    
