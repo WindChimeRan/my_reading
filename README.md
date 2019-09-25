@@ -196,7 +196,11 @@
 
     [paper](https://www.aclweb.org/anthology/D18-1034)
 
-    
+    key: NER | alignment | word2word translation | svd
+
+    notes: 09/24/2019
+
+    > Dictionary mapping is not good enough for xlner alignment and it is also hard to align two embedding space perfectly. This paper proposes a iterative method, first optimize embedding projection via SVD then re-align word pairs. Then repeat...
 
 
 
