@@ -90,12 +90,21 @@
 
     [paper](https://arxiv.org/pdf/1909.04176.pdf)
 
-    key: meta-learning | ? label dependency | multi-label classification
+    key: meta-learning | label dependency | multi-label classification
 
     notes: 09/13/2019
 
     > This paper propose a RNN-based meta-learner to learn the the threshold and instance weight for loss, that is, a variant of standard cross-entropy.
 
+2. **Transform multi-label classification as sentence pair task**
+
+    [github](https://github.com/brightmart/multi-label_classification)
+
+    key: multi-label classification | sentence pair matching | auxiluary task
+
+    > this project propose an interesting data augmentation trick, which transforms multi-label classification to binary classification.
+
+    > That is, a label can be 6 sentences (6 centroid embedding!)! 
 
 
 ## back-translation
@@ -217,3 +226,13 @@
 
     > problem: The insertion and deletion might never end because neural network is a blackbox.
 
+## Joint learning
+
+1. **Joint Slot Filling and Intent Detection via Capsule Neural Networks**
+   
+   [paper](https://www.aclweb.org/anthology/P19-1519)
+
+
+2. **Multi-Task Identification of Entities, Relations, and Coreference for Scientific Knowledge Graph Construction**
+   
+   [paper](https://www.aclweb.org/anthology/D18-1360)
