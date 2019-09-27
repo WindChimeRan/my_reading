@@ -50,6 +50,10 @@
 
     [paper](http://nlp.cs.rpi.edu/paper/adversarial2019.pdf)
 
+    notes: 09/27/2019
+
+    > This paper leverage adversarial learning to learn a common space for multi-lingual representation. Then it trains a NER model on the common space.
+
 3. **Multilingual Entity, Relation, Event and Human Value Extraction**
    
     key: xlie | multi-task
@@ -77,9 +81,10 @@
 
     [paper](http://nlp.cs.rpi.edu/paper/finegrained2019.pdf)
 
-    notes: 09/25/2019
+    notes: 09/27/2019
 
-    > 
+    > The combinition of labels of multi-label classification is 2^type, which significantly bigger than training data. To mining the co-occurrence of labels. This paper project predicted score to low-dimensional hyper-cube for classification.
+
 ## Metric Learning
 
 1. **SoftTriple Loss: Deep Metric Learning Without Triplet Sampling**
