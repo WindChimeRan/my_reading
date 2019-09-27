@@ -241,10 +241,32 @@
    
    [paper](https://www.aclweb.org/anthology/P19-1519)
 
+   notes: 09/27/2019
+
+   keys: joint | capsule
+
+   > replace crf with capsule...
+
 
 2. **Multi-Task Identification of Entities, Relations, and Coreference for Scientific Knowledge Graph Construction**
    
    [paper](https://www.aclweb.org/anthology/D18-1360)
+
+   notes: 09/27/2019
+
+   keys: joint | KG construction
+
+   > joint extraction of Entities, Relations, and Coreference for AI top conferences.
+
+3. **One for All: Neural Joint Modeling of Entities and Events**
+
+    [paper](https://arxiv.org/abs/1812.00195)
+
+    notes: 09/27/2019
+
+    keys: joint
+
+    > Joint extraction of Entity Mention Detection, Event Detection, Argument Role Prediction.
 
 ## Event Extraction
 
@@ -263,3 +285,18 @@
     > b. event coreference prediction in the pure data
 
     > c. re-annotate the unlabeled data via model b
+
+
+
+## Trick
+
+1. **Data Augmentation Revisited: Rethinking the Distribution Gap between Clean and Augmented Data**
+
+    [paper](https://arxiv.org/abs/1909.09148)
+
+    notes: 09/27/2019
+
+    keys: data augmentatiton
+
+    > 1. training with augmentated data
+    > 2. refining with pure data
