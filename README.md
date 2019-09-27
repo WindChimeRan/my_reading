@@ -71,6 +71,15 @@
     
     > "However, abandoning training data may exacerbate the issue of inadequate annotation. Therefore, maximizing the potential of massive noisy data as well as high quality part, yet being efficient, is challenging."
 
+5. **An Attentive Fine-Grained Entity Typing Model with Latent Type Representation**
+
+    key: fine grained entity type
+
+    [paper](http://nlp.cs.rpi.edu/paper/finegrained2019.pdf)
+
+    notes: 09/25/2019
+
+    > 
 ## Metric Learning
 
 1. **SoftTriple Loss: Deep Metric Learning Without Triplet Sampling**
@@ -236,3 +245,21 @@
 2. **Multi-Task Identification of Entities, Relations, and Coreference for Scientific Knowledge Graph Construction**
    
    [paper](https://www.aclweb.org/anthology/D18-1360)
+
+## Event Extraction
+
+1. **Improving Event Coreference Resolution by Learning Argument Compatibility from Unlabeled Data**
+
+    [paper](https://www.aclweb.org/anthology/N19-1085)
+
+    notes: 09/26/2019
+
+    keys: event | event coreference | data augmentation | boostrapping network
+
+    > iteratively exacuate two step
+
+    > a. training argument compatible classifier in the unlabeled data, which is annotated by heuristics.
+
+    > b. event coreference prediction in the pure data
+
+    > c. re-annotate the unlabeled data via model b
