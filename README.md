@@ -305,3 +305,19 @@
 
     > 1. training with augmentated data
     > 2. refining with pure data
+
+## Old days
+
+1. **A Maximum Entropy Approach to Adaptive Statistical Language Modeling**
+
+    [paper](https://www.cs.cmu.edu/~roni/papers/me-csl-revised.pdf)
+
+    1996
+
+    notes: 09/27/2019
+
+    keys: Trigger Pair | expected benefit of pattern | statistical NLP
+
+    > If a word sequence A is significantly correlated with another word sequence B, then (A -> B) is considered a “trigger pair”, with A being the trigger and B the triggered sequence. When A occurs in the document, it triggers B, causing its probability estimate to change.
+
+    > The expect benefit of given pattern (trigger pair) is calculated by the average mutual information between the two. Eq. 5
