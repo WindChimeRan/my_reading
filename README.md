@@ -321,3 +321,30 @@
     > If a word sequence A is significantly correlated with another word sequence B, then (A -> B) is considered a “trigger pair”, with A being the trigger and B the triggered sequence. When A occurs in the document, it triggers B, causing its probability estimate to change.
 
     > The expect benefit of given pattern (trigger pair) is calculated by the average mutual information between the two. Eq. 5
+
+2. **Automatically generating extraction patterns from untagged text**
+
+    [paper](https://www.cs.utah.edu/~riloff/pdfs/aaai96.pdf)
+
+    AAAI1996
+
+## Interesting
+
+1. **BottleSum: Unsupervised and Self-supervised Sentence Summarization using the Information Bottleneck Principle**
+
+    [paper](https://arxiv.org/abs/1909.07405)
+
+    keys: mutual information gain | extractive summarization | self-supervised
+
+    > this paper uses old days' ...
+
+## Pattern
+
+1. **Syntactic Patterns Improve Information Extraction for Medical Search**
+   
+   [paper](https://www.aclweb.org/anthology/N18-2060.pdf)
+
+   keys: pattern
+
+
+
