@@ -348,3 +348,18 @@
 
 
 
+2. **Reliability-aware Dynamic Feature Composition for Name Tagging**
+
+    [paper](https://www.aclweb.org/anthology/P19-1016/)
+
+    keys: gate
+
+    notes: 11/03/2019
+
+    ACL2019
+    
+    > Word embedding is an important footstone in NLP model. However, as the word distribution is typically longtail. Models cannot always learn a representative embedding for all words. For those longtail words in the dictionary, the model should depend on character embedding, which might have some patterns shared in common.
+
+    > To discriminate words between rare and common, this paper uses explicit reliability signals: (1) word frequency in embedding corpors. (2) word frequency in the NER task
+
+    > The fused word representation is also very interesting: the char embedding includes two part: (1) alternative representation to word embedding. (2) morphorlogical features which is disjoint to word embedding.
